@@ -12,7 +12,6 @@ Trả lời:
   
 Java thuộc loại ngôn ngữ lập trình Pass by Value.
 
-
 Question 3:
 
 - After the call of swap(jungleDVD, cinderellaDVD) why does the title of these two objects still remain?
