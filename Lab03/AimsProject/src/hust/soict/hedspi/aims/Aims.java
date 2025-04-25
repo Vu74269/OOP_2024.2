@@ -112,7 +112,7 @@ public class Aims {
         System.out.println("Please choose a number: 0-1-2-3: ");
     }
     
-    public static void cartMenu() {
+    public void cartMenu() {
         System.out.println("Options : ");
         System.out.println("-------------------------------------");
         System.out.println("1. Filter media in cart");
@@ -145,7 +145,7 @@ public class Aims {
         System.out.println("Please choose a number: 0-1-2: ");
     }
     
-    private void storeMenuLoop() {
+    public void storeMenuLoop() {
         int option1 = -1;
         while (option1 != 0) {
             store.print();
@@ -174,7 +174,7 @@ public class Aims {
         }
     }
     
-    private void askMediaLoop() {
+    public void askMediaLoop() {
     	boolean valid = false;
     	while (valid == false) {
     		System.out.println("Please enter the title:");
@@ -190,7 +190,7 @@ public class Aims {
     	}
     }
     
-    private void mediaDetailsLoop(Media selected) {
+    public void mediaDetailsLoop(Media selected) {
         int option2 = -1;
         while (option2 != 0) {
         	mediaDetailsMenu();
@@ -218,7 +218,7 @@ public class Aims {
         }
     }
     
-    private void addMediaToCartLoop() {
+    public void addMediaToCartLoop() {
     	boolean valid = false;
     	while (valid == false) {
     		System.out.println("Please enter the title:");
@@ -234,7 +234,7 @@ public class Aims {
     	}
     }
     
-    private void playMediaLoop() {
+    public void playMediaLoop() {
     	boolean valid = false;
     	while (valid == false) {
     		System.out.println("Please enter the title:");
@@ -254,7 +254,7 @@ public class Aims {
     		}
     	}
     }
-    private void updateStoreLoop() {
+    public void updateStoreLoop() {
         int option3 = -1;
         while (option3 != 0) {
         	updateStoreMenu();
@@ -275,7 +275,7 @@ public class Aims {
             }
         }
     }
-    private void addMediaLoop() {
+    public void addMediaLoop() {
         int option4 = -1;
         while (option4 != 0) {
         	addMediaMenu();
@@ -328,7 +328,7 @@ public class Aims {
             }
         }
     }
-    private void removeMediaLoop() {
+    public void removeMediaLoop() {
         int option5 = -1;
         while (option5 != 0) {
         	removeMediaMenu();
@@ -382,7 +382,7 @@ public class Aims {
         }
     }
     
-    private void cartMenuLoop() {
+    public void cartMenuLoop() {
         int option6 = -1;
         while (option6 != 0) {
         	cartMenu();
@@ -414,7 +414,7 @@ public class Aims {
         }
     }
     
-    private void filterCartLoop() {
+    public void filterCartLoop() {
         int option7 = -1;
         while (option7 != 0) {
         	filterMenu();
@@ -440,7 +440,7 @@ public class Aims {
         }
     }
     
-    private void sortCartLoop() {
+    public void sortCartLoop() {
         int option8 = -1;
         while (option8 != 0) {
         	sortMenu();
@@ -464,7 +464,7 @@ public class Aims {
         }
     }
     
-    private void removeMediaCartLoop() {
+    public void removeMediaCartLoop() {
         int option9 = -1;
         while (option9 != 0) {
         	removeMediaMenu();
@@ -518,7 +518,7 @@ public class Aims {
         }
     }
     
-    private void playMediaCartLoop() {
+    public void playMediaCartLoop() {
     	boolean valid = false;
     	while (valid == false) {
     		System.out.println("Please enter the title:");
